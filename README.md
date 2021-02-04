@@ -8,28 +8,46 @@ Main Objective: To create a fully functioning pellet stove controller with off t
 
 
 Current Phase: 1
+
+
 Phase1: 
+    
     Objective: Get a basic UI and working relay board to control pellet stove combustion blower, feed motor, distribution blower, and thermocouple
+    
     Setup GUI and layout with Tkinter
+    
     Setup Thermocouple
+    
     Setup relay controls
+    
     Setup basic logic and temp control
+    
     Ensure basic safety logic is in place
 
 Phase2:
+    
     Merge code and gui to operate as one
+    
     Setup control to turn off distribution blower
+    
     enable the touchscreen controls
+    
     setup persistence of configuration to file
 
 Phase3:
+    
     Setup service and gui programs
+    
     setup service to run constantly with watchdog service for safety
+    
     Setup service and gui inter program communications
+    
     Setup checks to only allow one instance of the service program to run
 
 Bonus:
+   
     Setup long term logging
+   
     Setup MQTT and OpenHAB integration
     
 
